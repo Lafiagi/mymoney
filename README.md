@@ -7,4 +7,6 @@
  - Run `pip3 install -r requirements.txt`
  - Run `pip3 install -r requirements.dev.txt`
  - Start app via command: `python3 geektrust.py <file_path>`
+ - To run with test data:`python3 geektrust.py fixtures/fixture_rebalaceable.txt`
+ - To run with test data(CANNOT_REBALANCE):`python3 geektrust.py fixtures/fixture_not_rebalaceable.txt `
  - Run test via command: `python3 -m unittest discover tests/`
